@@ -1,0 +1,5 @@
+{
+    "require": {
+        "reactjs/react-php-v8js": "^2.0"
+    }
+}

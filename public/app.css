@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.React-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.PHP-logo {
+  animation: App-logo-spin-reverse infinite 20s linear;
+  height: 65px;
+}
+
+.Theodo-logo {
+  height: 100px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header img {
+  display: inline-block;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
